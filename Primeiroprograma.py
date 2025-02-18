@@ -45,7 +45,7 @@ while True:
             print("Operação falhou! Saldo insulficiente")
 
         elif excedeu_limite:
-            print("Operação falhou! Limite de saque diário é de no máximo 3 vezes")
+            print("Operação falhou! Limite de saque diário é de no R$500,00")
 
         elif excedeu_saques:
             print("Operação falhou! Excedeu o limite de saques no dia")
